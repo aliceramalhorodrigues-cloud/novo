@@ -1,6 +1,6 @@
 body {
-    background-color: #9cdaa9; 
-    color: #3ca0ac; 
+    background-color: #054613; 
+    color: #000000; 
     font-family: "Diplomata", serif;
     font-size: 1.2rem; 
     text-shadow: 2px 2px 0px #000000; 
@@ -13,7 +13,7 @@ body {
 }
 
 button {
-    background-color: #a1522e; 
+    background-color: #2b6faf; 
     color: #000000; 
     border: 1px solid #8fa3b2;
     padding: 10px 15px;
