@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata&display=swap" rel="stylesheet">
+    <title>Minecraft RPG</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="images.jpeg" alt="Cenário Inicial">
+            <p>Você sempre adorou jogar Minecraft e sonhava em viver nesse mundo de blocos. Agora que você está dentro dele, o objetivo é simples: coletar recursos e evoluir. Siga as linhas do fluxograma, faça as escolhas certas na ordem certa e monte o seu caminho até o portal do Nether. Divirta-se criando a sua própria jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Pegar recursos</button>
+            <button class="btn-proximo" data-proximo="2">Coletar madeira</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você decide vasculhar o chão, mas sem ferramentas só encontra terra e sementes. O sol começa a pôr-se e ouve-se um gemido de zombie ao longe! O que faz?</p>
+            <button class="btn-proximo" data-proximo="2">Correr para coletar madeira antes que escureça</button>
+            <button class="btn-proximo" data-proximo="3">Cavar um buraco na terra e esconder-se toda a noite</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Boa escolha! Com a madeira, você cria uma Bancada de Trabalho (Crafting Table) e as suas primeiras ferramentas de madeira. O dia está a acabar. Qual o próximo passo?</p>
+            <button class="btn-proximo" data-proximo="4">Criar uma picareta de madeira e minerar pedra numa caverna</button>
+            <button class="btn-proximo" data-proximo="3">Caçar ovelhas e fazer uma cama para dormir</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você passa a noite escura e fria em segurança/escondido. Sobreviveu! O amanhecer chegou.</p>
+            <button class="btn-proximo" data-proximo="2">Sair e ir coletar madeira urgentemente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Excelente! Na caverna, você coleta pedra, evolui para ferramentas de pedra e encontra minério de Ferro! Para avançar, precisa derreter o ferro numa fornalha. O que faz a seguir?</p>
+            <button class="btn-proximo" data-proximo="5">Fazer uma picareta de Ferro e descer até às camadas mais profundas (procurar Diamantes)</button>
+            <button class="btn-proximo" data-proximo="6">Fazer um Balde de Ferro e procurar uma poça de lava na superfície</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas profundezas do mundo, você encontra 3 Diamantes cintilantes! Cria a lendária Picareta de Diamante. Agora você pode minerar blocos de Obsidian (Obsidiana) para o portal. Onde vai procurar a Obsidian?</p>
+            <button class="btn-proximo" data-proximo="7">Procurar um lago de lava subterrâneo e jogar água para gerar Obsidian</button>
+            <button class="btn-proximo" data-proximo="8">Entrar direto numa ravina escura e sem iluminação</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Estratégia de mestre! Com o balde de água e a lava, você consegue moldar o Portal do Nether bloco a bloco sem precisar de diamantes. Só falta acender o portal!</p>
+            <button class="btn-proximo" data-proximo="9">Criar um Isqueiro (Flint and Steel) com ferro e cascalho</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Sucesso! Você jogou a água na lava, gerou a Obsidian e minerou os 10 blocos necessários com a sua picareta de diamante. Você monta a estrutura do portal. Só falta ligá-lo!</p>
+            <button class="btn-proximo" data-proximo="9">Usar um Isqueiro para acender o portal</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p><strong>GAME OVER:</strong> Ao entrar na ravina escura sem tochas, um Creeper caiu do teto e explodiu logo atrás de você! Você perdeu todos os seus itens.</p>
+            <button class="btn-proximo" data-proximo="0">Tentar Novamente (Reiniciar)</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p><strong>PARABÉNS!</strong> As chamas roxas acendem-se e o som do portal ecoa. Você atravessa o limite entre os mundos e alcança o Nether com sucesso! A sua aventura está apenas a começar.</p>
+            <button class="btn-proximo" data-proximo="0">Jogar Novamente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
