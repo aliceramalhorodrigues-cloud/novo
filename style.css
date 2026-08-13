@@ -3,7 +3,7 @@ body {
     color: #3ca0ac; 
     font-family: "Diplomata", serif;
     font-size: 1.2rem; 
-    text-shadow: 2px 2px 0px #0d141a; 
+    text-shadow: 2px 2px 0px #267c4a; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 }
 
 button {
-    background-color: #2c3b47; 
+    background-color: #a1522e; 
     color: #8fa3b2; 
     border: 1px solid #8fa3b2;
     padding: 10px 15px;
